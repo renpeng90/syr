@@ -1,0 +1,962 @@
+[traceId:,span_id:] 2018-06-07 09:35:17.806 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 09:40:17.820 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 09:45:17.823 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 09:49:15.164 [main] [INFO ] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@315f43d5: startup date [Thu Jun 07 09:49:15 CST 2018]; root of context hierarchy
+[traceId:,span_id:] 2018-06-07 09:49:15.936 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 09:49:16.000 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f6fa7f69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 09:49:16.372 [main] [INFO ] c.f.servicehi.ServiceHiApplication - No active profile set, falling back to default profiles: default
+[traceId:,span_id:] 2018-06-07 09:49:16.388 [main] [INFO ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73aff8f1: startup date [Thu Jun 07 09:49:16 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@315f43d5
+[traceId:,span_id:] 2018-06-07 09:49:17.703 [main] [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=d5f31472-dae9-380d-9075-ec04185d679f
+[traceId:,span_id:] 2018-06-07 09:49:17.722 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 09:49:17.846 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f6fa7f69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 09:49:18.284 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+[traceId:,span_id:] 2018-06-07 09:49:18.307 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 09:49:18.318 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[traceId:,span_id:] 2018-06-07 09:49:18.318 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[traceId:,span_id:] 2018-06-07 09:49:18.328 [localhost-startStop-1] [INFO ] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;D:\soft\nnd\idea\git\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\JYKJ\AppData\Local\Microsoft\WindowsApps;;.]
+[traceId:,span_id:] 2018-06-07 09:49:18.546 [localhost-startStop-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[traceId:,span_id:] 2018-06-07 09:49:18.547 [localhost-startStop-1] [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2159 ms
+[traceId:,span_id:] 2018-06-07 09:49:19.653 [localhost-startStop-1] [INFO ] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[traceId:,span_id:] 2018-06-07 09:49:19.658 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:49:19.658 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:49:19.658 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:49:19.659 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:49:19.659 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:49:19.659 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:49:19.750 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 09:49:19.750 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 09:49:19.764 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 09:49:19.764 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 09:49:19.858 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:49:20.115 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73aff8f1: startup date [Thu Jun 07 09:49:16 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@315f43d5
+[traceId:,span_id:] 2018-06-07 09:49:20.207 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hi]}" onto public java.lang.String com.forezp.servicehi.ServiceHiApplication.home(java.lang.String)
+[traceId:,span_id:] 2018-06-07 09:49:20.208 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/util/date],methods=[GET]}" onto public com.forezp.servicehi.common.rest.RestResponse<java.lang.Void> com.forezp.servicehi.resource.UtilDateResource.getDate()
+[traceId:,span_id:] 2018-06-07 09:49:20.211 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[traceId:,span_id:] 2018-06-07 09:49:20.212 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 09:49:20.248 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:49:20.249 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:49:20.270 [main] [INFO ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restExceptionHandler
+[traceId:,span_id:] 2018-06-07 09:49:20.719 [main] [INFO ] o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73aff8f1: startup date [Thu Jun 07 09:49:16 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@315f43d5] and template loader path [classpath:/templates/]
+[traceId:,span_id:] 2018-06-07 09:49:20.720 [main] [INFO ] o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[traceId:,span_id:] 2018-06-07 09:49:20.923 [main] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[traceId:,span_id:] 2018-06-07 09:49:20.936 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 09:49:20.936 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 09:49:20.937 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 09:49:20.989 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[traceId:,span_id:] 2018-06-07 09:49:20.999 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:49:21.001 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:49:21.001 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:49:21.004 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+[traceId:,span_id:] 2018-06-07 09:49:21.013 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+[traceId:,span_id:] 2018-06-07 09:49:21.022 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=73aff8f1,type=ConfigurationPropertiesRebinder]
+[traceId:,span_id:] 2018-06-07 09:49:21.032 [main] [INFO ] o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+[traceId:,span_id:] 2018-06-07 09:49:21.040 [main] [INFO ] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[traceId:,span_id:] 2018-06-07 09:49:21.102 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[traceId:,span_id:] 2018-06-07 09:49:21.548 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 09:49:21.548 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 09:49:21.735 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 09:49:21.735 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 09:49:22.074 [main] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 09:49:22.138 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[traceId:,span_id:] 2018-06-07 09:49:22.138 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[traceId:,span_id:] 2018-06-07 09:49:22.138 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[traceId:,span_id:] 2018-06-07 09:49:22.138 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application is null : false
+[traceId:,span_id:] 2018-06-07 09:49:22.138 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[traceId:,span_id:] 2018-06-07 09:49:22.139 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[traceId:,span_id:] 2018-06-07 09:49:22.139 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[traceId:,span_id:] 2018-06-07 09:49:22.424 [main] [INFO ] c.netflix.discovery.DiscoveryClient - The response status is 200
+[traceId:,span_id:] 2018-06-07 09:49:22.427 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[traceId:,span_id:] 2018-06-07 09:49:22.429 [main] [INFO ] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[traceId:,span_id:] 2018-06-07 09:49:22.434 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1528336162431 with initial instances count: 1
+[traceId:,span_id:] 2018-06-07 09:49:22.437 [main] [INFO ] o.s.c.n.e.s.EurekaServiceRegistry - Registering application service-hi with eureka with status UP
+[traceId:,span_id:] 2018-06-07 09:49:22.437 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1528336162437, current=UP, previous=STARTING]
+[traceId:,span_id:] 2018-06-07 09:49:22.439 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762: registering service...
+[traceId:,span_id:] 2018-06-07 09:49:22.454 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 09:49:22.467 [main] [INFO ] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[traceId:,span_id:] 2018-06-07 09:49:22.472 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762 - registration status: 204
+[traceId:,span_id:] 2018-06-07 09:49:22.497 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+[traceId:,span_id:] 2018-06-07 09:49:22.498 [main] [INFO ] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8762
+[traceId:,span_id:] 2018-06-07 09:49:22.500 [main] [INFO ] c.f.servicehi.ServiceHiApplication - Started ServiceHiApplication in 8.936 seconds (JVM running for 11.798)
+[traceId:,span_id:] 2018-06-07 09:50:11.015 [http-nio-8762-exec-2] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[traceId:,span_id:] 2018-06-07 09:50:11.015 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[traceId:,span_id:] 2018-06-07 09:50:11.033 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[traceId:,span_id:] 2018-06-07 09:50:11.101 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 09:50:11.101 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 09:50:11.103 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime()=20180607 09:50:11
+[traceId:,span_id:] 2018-06-07 09:50:11.103 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime14()=20180607095011
+[traceId:,span_id:] 2018-06-07 09:50:11.103 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime17()=20180607 09:50:11
+[traceId:,span_id:] 2018-06-07 09:50:11.103 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime19()=2018-06-07 09:50:11
+[traceId:,span_id:] 2018-06-07 09:50:11.104 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 09:50:11.104 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 09:50:11.104 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 09:50:11.107 [http-nio-8762-exec-2] [ERROR] c.f.s.c.r.a.RestExceptionHandler - URI [/util/date]请求异常
+java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: HourOfDay
+	at java.time.LocalDate.get0(LocalDate.java:680)
+	at java.time.LocalDate.getLong(LocalDate.java:659)
+	at java.time.format.DateTimePrintContext.getValue(DateTimePrintContext.java:298)
+	at java.time.format.DateTimeFormatterBuilder$NumberPrinterParser.format(DateTimeFormatterBuilder.java:2540)
+	at java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2179)
+	at java.time.format.DateTimeFormatter.formatTo(DateTimeFormatter.java:1746)
+	at java.time.format.DateTimeFormatter.format(DateTimeFormatter.java:1720)
+	at com.forezp.servicehi.common.util.date.DateUtil.getDateStr(DateUtil.java:61)
+	at com.forezp.servicehi.service.UtilDateService.findDate(UtilDateService.java:89)
+	at com.forezp.servicehi.resource.UtilDateResource.getDate(UtilDateResource.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[traceId:,span_id:] 2018-06-07 09:52:02.235 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 09:52:02.236 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 09:52:02.236 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime()=20180607 09:52:02
+[traceId:,span_id:] 2018-06-07 09:52:02.236 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime14()=20180607095202
+[traceId:,span_id:] 2018-06-07 09:52:02.236 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime17()=20180607 09:52:02
+[traceId:,span_id:] 2018-06-07 09:52:02.237 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime19()=2018-06-07 09:52:02
+[traceId:,span_id:] 2018-06-07 09:52:02.237 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 09:52:02.237 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 09:52:02.237 [http-nio-8762-exec-7] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 09:52:51.111 [http-nio-8762-exec-7] [ERROR] c.f.s.c.r.a.RestExceptionHandler - URI [/util/date]请求异常
+java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: HourOfDay
+	at java.time.LocalDate.get0(LocalDate.java:680)
+	at java.time.LocalDate.getLong(LocalDate.java:659)
+	at java.time.format.DateTimePrintContext.getValue(DateTimePrintContext.java:298)
+	at java.time.format.DateTimeFormatterBuilder$NumberPrinterParser.format(DateTimeFormatterBuilder.java:2540)
+	at java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2179)
+	at java.time.format.DateTimeFormatter.formatTo(DateTimeFormatter.java:1746)
+	at java.time.format.DateTimeFormatter.format(DateTimeFormatter.java:1720)
+	at com.forezp.servicehi.common.util.date.DateUtil.getDateStr(DateUtil.java:61)
+	at com.forezp.servicehi.service.UtilDateService.findDate(UtilDateService.java:89)
+	at com.forezp.servicehi.resource.UtilDateResource.getDate(UtilDateResource.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[traceId:,span_id:] 2018-06-07 09:54:22.141 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 09:54:37.136 [main] [INFO ] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@20b12f8a: startup date [Thu Jun 07 09:54:37 CST 2018]; root of context hierarchy
+[traceId:,span_id:] 2018-06-07 09:54:37.315 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 09:54:37.351 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$aa82cf8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 09:54:37.572 [main] [INFO ] c.f.servicehi.ServiceHiApplication - No active profile set, falling back to default profiles: default
+[traceId:,span_id:] 2018-06-07 09:54:37.587 [main] [INFO ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5942ee04: startup date [Thu Jun 07 09:54:37 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@20b12f8a
+[traceId:,span_id:] 2018-06-07 09:54:38.377 [main] [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=d5f31472-dae9-380d-9075-ec04185d679f
+[traceId:,span_id:] 2018-06-07 09:54:38.397 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 09:54:38.491 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$aa82cf8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 09:54:38.758 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+[traceId:,span_id:] 2018-06-07 09:54:38.770 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 09:54:38.779 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[traceId:,span_id:] 2018-06-07 09:54:38.779 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[traceId:,span_id:] 2018-06-07 09:54:38.783 [localhost-startStop-1] [INFO ] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;D:\soft\nnd\idea\git\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\JYKJ\AppData\Local\Microsoft\WindowsApps;;.]
+[traceId:,span_id:] 2018-06-07 09:54:38.922 [localhost-startStop-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[traceId:,span_id:] 2018-06-07 09:54:38.922 [localhost-startStop-1] [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1336 ms
+[traceId:,span_id:] 2018-06-07 09:54:39.980 [localhost-startStop-1] [INFO ] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[traceId:,span_id:] 2018-06-07 09:54:39.985 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:54:39.985 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:54:39.985 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:54:39.985 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:54:39.986 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:54:39.986 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:54:40.047 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 09:54:40.047 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 09:54:40.050 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 09:54:40.050 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 09:54:40.135 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:54:40.434 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5942ee04: startup date [Thu Jun 07 09:54:37 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@20b12f8a
+[traceId:,span_id:] 2018-06-07 09:54:40.488 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hi]}" onto public java.lang.String com.forezp.servicehi.ServiceHiApplication.home(java.lang.String)
+[traceId:,span_id:] 2018-06-07 09:54:40.489 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/util/date],methods=[GET]}" onto public com.forezp.servicehi.common.rest.RestResponse<java.lang.Void> com.forezp.servicehi.resource.UtilDateResource.getDate()
+[traceId:,span_id:] 2018-06-07 09:54:40.491 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[traceId:,span_id:] 2018-06-07 09:54:40.492 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 09:54:40.522 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:54:40.522 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:54:40.541 [main] [INFO ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restExceptionHandler
+[traceId:,span_id:] 2018-06-07 09:54:40.942 [main] [INFO ] o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5942ee04: startup date [Thu Jun 07 09:54:37 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@20b12f8a] and template loader path [classpath:/templates/]
+[traceId:,span_id:] 2018-06-07 09:54:40.942 [main] [INFO ] o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[traceId:,span_id:] 2018-06-07 09:54:41.111 [main] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[traceId:,span_id:] 2018-06-07 09:54:41.125 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 09:54:41.126 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 09:54:41.127 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 09:54:41.188 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[traceId:,span_id:] 2018-06-07 09:54:41.199 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:54:41.201 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:54:41.202 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:54:41.205 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+[traceId:,span_id:] 2018-06-07 09:54:41.216 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+[traceId:,span_id:] 2018-06-07 09:54:41.230 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5942ee04,type=ConfigurationPropertiesRebinder]
+[traceId:,span_id:] 2018-06-07 09:54:41.241 [main] [INFO ] o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+[traceId:,span_id:] 2018-06-07 09:54:41.251 [main] [INFO ] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[traceId:,span_id:] 2018-06-07 09:54:41.296 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[traceId:,span_id:] 2018-06-07 09:54:41.534 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 09:54:41.534 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 09:54:41.644 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 09:54:41.644 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 09:54:41.893 [main] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 09:54:41.939 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[traceId:,span_id:] 2018-06-07 09:54:41.939 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[traceId:,span_id:] 2018-06-07 09:54:41.939 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[traceId:,span_id:] 2018-06-07 09:54:41.939 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application is null : false
+[traceId:,span_id:] 2018-06-07 09:54:41.939 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[traceId:,span_id:] 2018-06-07 09:54:41.939 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[traceId:,span_id:] 2018-06-07 09:54:41.939 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[traceId:,span_id:] 2018-06-07 09:54:42.089 [main] [INFO ] c.netflix.discovery.DiscoveryClient - The response status is 200
+[traceId:,span_id:] 2018-06-07 09:54:42.092 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[traceId:,span_id:] 2018-06-07 09:54:42.094 [main] [INFO ] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[traceId:,span_id:] 2018-06-07 09:54:42.097 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1528336482096 with initial instances count: 1
+[traceId:,span_id:] 2018-06-07 09:54:42.103 [main] [INFO ] o.s.c.n.e.s.EurekaServiceRegistry - Registering application service-hi with eureka with status UP
+[traceId:,span_id:] 2018-06-07 09:54:42.104 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1528336482104, current=UP, previous=STARTING]
+[traceId:,span_id:] 2018-06-07 09:54:42.106 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762: registering service...
+[traceId:,span_id:] 2018-06-07 09:54:42.129 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 09:54:42.160 [main] [INFO ] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[traceId:,span_id:] 2018-06-07 09:54:42.166 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762 - registration status: 204
+[traceId:,span_id:] 2018-06-07 09:54:42.185 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+[traceId:,span_id:] 2018-06-07 09:54:42.187 [main] [INFO ] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8762
+[traceId:,span_id:] 2018-06-07 09:54:42.190 [main] [INFO ] c.f.servicehi.ServiceHiApplication - Started ServiceHiApplication in 6.145 seconds (JVM running for 6.884)
+[traceId:,span_id:] 2018-06-07 09:54:48.066 [http-nio-8762-exec-2] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[traceId:,span_id:] 2018-06-07 09:54:48.067 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[traceId:,span_id:] 2018-06-07 09:54:48.088 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+[traceId:,span_id:] 2018-06-07 09:54:48.125 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime()=20180607 09:54:48
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime14()=20180607095448
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime17()=20180607 09:54:48
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime19()=2018-06-07 09:54:48
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 09:54:48.126 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 09:54:48.127 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.parseDateTime(String dateTime, DateTimeFormatter formatter)=2018-06-06T18:08:58
+[traceId:,span_id:] 2018-06-07 09:54:48.127 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.parseDate(String date, DateTimeFormatter formatter)=2018-06-06
+[traceId:,span_id:] 2018-06-07 09:54:48.131 [http-nio-8762-exec-2] [ERROR] c.f.s.c.r.a.RestExceptionHandler - URI [/util/date]请求异常
+java.time.format.DateTimeParseException: Text '2018-06-06 18:08:58' could not be parsed, unparsed text found at index 10
+	at java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1952)
+	at java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1851)
+	at java.time.LocalDate.parse(LocalDate.java:400)
+	at com.forezp.servicehi.common.util.date.DateUtil.parseDate(DateUtil.java:69)
+	at com.forezp.servicehi.common.util.date.DateUtil.betweenDays(DateUtil.java:73)
+	at com.forezp.servicehi.service.UtilDateService.findDate(UtilDateService.java:98)
+	at com.forezp.servicehi.resource.UtilDateResource.getDate(UtilDateResource.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[traceId:,span_id:] 2018-06-07 09:58:17.358 [main] [INFO ] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5c42d2b7: startup date [Thu Jun 07 09:58:17 CST 2018]; root of context hierarchy
+[traceId:,span_id:] 2018-06-07 09:58:17.542 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 09:58:17.577 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28c1a0ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 09:58:17.805 [main] [INFO ] c.f.servicehi.ServiceHiApplication - No active profile set, falling back to default profiles: default
+[traceId:,span_id:] 2018-06-07 09:58:17.818 [main] [INFO ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ad5923a: startup date [Thu Jun 07 09:58:17 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5c42d2b7
+[traceId:,span_id:] 2018-06-07 09:58:18.619 [main] [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=d5f31472-dae9-380d-9075-ec04185d679f
+[traceId:,span_id:] 2018-06-07 09:58:18.635 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 09:58:18.740 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28c1a0ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 09:58:18.983 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+[traceId:,span_id:] 2018-06-07 09:58:18.996 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 09:58:19.004 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[traceId:,span_id:] 2018-06-07 09:58:19.004 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[traceId:,span_id:] 2018-06-07 09:58:19.008 [localhost-startStop-1] [INFO ] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;D:\soft\nnd\idea\git\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\JYKJ\AppData\Local\Microsoft\WindowsApps;;.]
+[traceId:,span_id:] 2018-06-07 09:58:19.156 [localhost-startStop-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[traceId:,span_id:] 2018-06-07 09:58:19.156 [localhost-startStop-1] [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1338 ms
+[traceId:,span_id:] 2018-06-07 09:58:20.212 [localhost-startStop-1] [INFO ] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[traceId:,span_id:] 2018-06-07 09:58:20.215 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:58:20.216 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:58:20.216 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:58:20.216 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:58:20.216 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:58:20.216 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 09:58:20.280 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 09:58:20.280 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 09:58:20.283 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 09:58:20.283 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 09:58:20.364 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:58:20.603 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ad5923a: startup date [Thu Jun 07 09:58:17 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5c42d2b7
+[traceId:,span_id:] 2018-06-07 09:58:20.668 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hi]}" onto public java.lang.String com.forezp.servicehi.ServiceHiApplication.home(java.lang.String)
+[traceId:,span_id:] 2018-06-07 09:58:20.670 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/util/date],methods=[GET]}" onto public com.forezp.servicehi.common.rest.RestResponse<java.lang.Void> com.forezp.servicehi.resource.UtilDateResource.getDate()
+[traceId:,span_id:] 2018-06-07 09:58:20.671 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[traceId:,span_id:] 2018-06-07 09:58:20.672 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 09:58:20.705 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:58:20.705 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 09:58:20.725 [main] [INFO ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restExceptionHandler
+[traceId:,span_id:] 2018-06-07 09:58:21.119 [main] [INFO ] o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ad5923a: startup date [Thu Jun 07 09:58:17 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5c42d2b7] and template loader path [classpath:/templates/]
+[traceId:,span_id:] 2018-06-07 09:58:21.119 [main] [INFO ] o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[traceId:,span_id:] 2018-06-07 09:58:21.291 [main] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[traceId:,span_id:] 2018-06-07 09:58:21.303 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 09:58:21.305 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 09:58:21.305 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 09:58:21.361 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[traceId:,span_id:] 2018-06-07 09:58:21.372 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:58:21.374 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:58:21.374 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 09:58:21.377 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+[traceId:,span_id:] 2018-06-07 09:58:21.386 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+[traceId:,span_id:] 2018-06-07 09:58:21.399 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6ad5923a,type=ConfigurationPropertiesRebinder]
+[traceId:,span_id:] 2018-06-07 09:58:21.412 [main] [INFO ] o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+[traceId:,span_id:] 2018-06-07 09:58:21.420 [main] [INFO ] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[traceId:,span_id:] 2018-06-07 09:58:21.469 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[traceId:,span_id:] 2018-06-07 09:58:21.663 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 09:58:21.664 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 09:58:21.759 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 09:58:21.759 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 09:58:22.001 [main] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 09:58:22.045 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[traceId:,span_id:] 2018-06-07 09:58:22.045 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[traceId:,span_id:] 2018-06-07 09:58:22.045 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[traceId:,span_id:] 2018-06-07 09:58:22.045 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application is null : false
+[traceId:,span_id:] 2018-06-07 09:58:22.045 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[traceId:,span_id:] 2018-06-07 09:58:22.045 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[traceId:,span_id:] 2018-06-07 09:58:22.045 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[traceId:,span_id:] 2018-06-07 09:58:22.197 [main] [INFO ] c.netflix.discovery.DiscoveryClient - The response status is 200
+[traceId:,span_id:] 2018-06-07 09:58:22.201 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[traceId:,span_id:] 2018-06-07 09:58:22.203 [main] [INFO ] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[traceId:,span_id:] 2018-06-07 09:58:22.208 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1528336702206 with initial instances count: 1
+[traceId:,span_id:] 2018-06-07 09:58:22.214 [main] [INFO ] o.s.c.n.e.s.EurekaServiceRegistry - Registering application service-hi with eureka with status UP
+[traceId:,span_id:] 2018-06-07 09:58:22.214 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1528336702214, current=UP, previous=STARTING]
+[traceId:,span_id:] 2018-06-07 09:58:22.217 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762: registering service...
+[traceId:,span_id:] 2018-06-07 09:58:22.236 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 09:58:22.252 [main] [INFO ] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[traceId:,span_id:] 2018-06-07 09:58:22.258 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762 - registration status: 204
+[traceId:,span_id:] 2018-06-07 09:58:22.273 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+[traceId:,span_id:] 2018-06-07 09:58:22.276 [main] [INFO ] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8762
+[traceId:,span_id:] 2018-06-07 09:58:22.280 [main] [INFO ] c.f.servicehi.ServiceHiApplication - Started ServiceHiApplication in 6.043 seconds (JVM running for 6.764)
+[traceId:,span_id:] 2018-06-07 09:58:28.426 [http-nio-8762-exec-2] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[traceId:,span_id:] 2018-06-07 09:58:28.426 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[traceId:,span_id:] 2018-06-07 09:58:28.448 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+[traceId:,span_id:] 2018-06-07 09:58:28.489 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 09:58:28.490 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 09:58:28.490 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime()=20180607 09:58:28
+[traceId:,span_id:] 2018-06-07 09:58:28.491 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime14()=20180607095828
+[traceId:,span_id:] 2018-06-07 09:58:28.492 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime17()=20180607 09:58:28
+[traceId:,span_id:] 2018-06-07 09:58:28.492 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime19()=2018-06-07 09:58:28
+[traceId:,span_id:] 2018-06-07 09:58:28.492 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 09:58:28.492 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 09:58:28.492 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 09:58:28.493 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.parseDateTime(String dateTime, DateTimeFormatter formatter)=2018-06-06T18:08:58
+[traceId:,span_id:] 2018-06-07 09:58:28.494 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.parseDate(String date, DateTimeFormatter formatter)=2018-06-06
+[traceId:,span_id:] 2018-06-07 09:58:28.494 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.betweenDays(String startDateStr, String endDateStr)=0
+[traceId:,span_id:] 2018-06-07 09:58:28.494 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.betweenDays(LocalDate startDate, LocalDate endDate)=0
+[traceId:,span_id:] 2018-06-07 09:58:28.494 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - DateUtil.betweenDays(LocalDateTime startDateTime, LocalDateTime endDateTime)=0
+[traceId:,span_id:] 2018-06-07 09:58:28.498 [http-nio-8762-exec-2] [ERROR] c.f.s.c.r.a.RestExceptionHandler - URI [/util/date]请求异常
+java.time.format.DateTimeParseException: Text '2018-06-06 18:08:58' could not be parsed, unparsed text found at index 10
+	at java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1952)
+	at java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1851)
+	at java.time.LocalDate.parse(LocalDate.java:400)
+	at com.forezp.servicehi.common.util.date.DateUtil.parseDate(DateUtil.java:69)
+	at com.forezp.servicehi.common.util.date.DateUtil.getAddDays(DateUtil.java:94)
+	at com.forezp.servicehi.service.UtilDateService.findDate(UtilDateService.java:107)
+	at com.forezp.servicehi.resource.UtilDateResource.getDate(UtilDateResource.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[traceId:,span_id:] 2018-06-07 10:00:04.938 [main] [INFO ] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@34f7234e: startup date [Thu Jun 07 10:00:04 CST 2018]; root of context hierarchy
+[traceId:,span_id:] 2018-06-07 10:00:05.122 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 10:00:05.151 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$800b4a6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 10:00:05.371 [main] [INFO ] c.f.servicehi.ServiceHiApplication - No active profile set, falling back to default profiles: default
+[traceId:,span_id:] 2018-06-07 10:00:05.385 [main] [INFO ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@28782602: startup date [Thu Jun 07 10:00:05 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34f7234e
+[traceId:,span_id:] 2018-06-07 10:00:06.163 [main] [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=d5f31472-dae9-380d-9075-ec04185d679f
+[traceId:,span_id:] 2018-06-07 10:00:06.181 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 10:00:06.288 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$800b4a6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 10:00:06.530 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+[traceId:,span_id:] 2018-06-07 10:00:06.542 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 10:00:06.550 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[traceId:,span_id:] 2018-06-07 10:00:06.550 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[traceId:,span_id:] 2018-06-07 10:00:06.555 [localhost-startStop-1] [INFO ] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;D:\soft\nnd\idea\git\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\JYKJ\AppData\Local\Microsoft\WindowsApps;;.]
+[traceId:,span_id:] 2018-06-07 10:00:06.697 [localhost-startStop-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[traceId:,span_id:] 2018-06-07 10:00:06.697 [localhost-startStop-1] [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1312 ms
+[traceId:,span_id:] 2018-06-07 10:00:07.736 [localhost-startStop-1] [INFO ] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[traceId:,span_id:] 2018-06-07 10:00:07.742 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:00:07.742 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:00:07.743 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:00:07.743 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:00:07.743 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:00:07.743 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:00:07.811 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 10:00:07.812 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 10:00:07.815 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 10:00:07.815 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 10:00:07.896 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 10:00:08.119 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@28782602: startup date [Thu Jun 07 10:00:05 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34f7234e
+[traceId:,span_id:] 2018-06-07 10:00:08.184 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hi]}" onto public java.lang.String com.forezp.servicehi.ServiceHiApplication.home(java.lang.String)
+[traceId:,span_id:] 2018-06-07 10:00:08.185 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/util/date],methods=[GET]}" onto public com.forezp.servicehi.common.rest.RestResponse<java.lang.Void> com.forezp.servicehi.resource.UtilDateResource.getDate()
+[traceId:,span_id:] 2018-06-07 10:00:08.187 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[traceId:,span_id:] 2018-06-07 10:00:08.187 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 10:00:08.223 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 10:00:08.223 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 10:00:08.247 [main] [INFO ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restExceptionHandler
+[traceId:,span_id:] 2018-06-07 10:00:08.656 [main] [INFO ] o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@28782602: startup date [Thu Jun 07 10:00:05 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@34f7234e] and template loader path [classpath:/templates/]
+[traceId:,span_id:] 2018-06-07 10:00:08.657 [main] [INFO ] o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[traceId:,span_id:] 2018-06-07 10:00:08.825 [main] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[traceId:,span_id:] 2018-06-07 10:00:08.839 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 10:00:08.839 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 10:00:08.840 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 10:00:08.894 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[traceId:,span_id:] 2018-06-07 10:00:08.905 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 10:00:08.907 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 10:00:08.907 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 10:00:08.910 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+[traceId:,span_id:] 2018-06-07 10:00:08.919 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+[traceId:,span_id:] 2018-06-07 10:00:08.932 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=28782602,type=ConfigurationPropertiesRebinder]
+[traceId:,span_id:] 2018-06-07 10:00:08.941 [main] [INFO ] o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+[traceId:,span_id:] 2018-06-07 10:00:08.947 [main] [INFO ] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[traceId:,span_id:] 2018-06-07 10:00:08.992 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[traceId:,span_id:] 2018-06-07 10:00:09.204 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 10:00:09.204 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 10:00:09.314 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 10:00:09.315 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 10:00:09.560 [main] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:00:09.602 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[traceId:,span_id:] 2018-06-07 10:00:09.602 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[traceId:,span_id:] 2018-06-07 10:00:09.602 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[traceId:,span_id:] 2018-06-07 10:00:09.602 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application is null : false
+[traceId:,span_id:] 2018-06-07 10:00:09.602 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[traceId:,span_id:] 2018-06-07 10:00:09.602 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[traceId:,span_id:] 2018-06-07 10:00:09.602 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[traceId:,span_id:] 2018-06-07 10:00:09.756 [main] [INFO ] c.netflix.discovery.DiscoveryClient - The response status is 200
+[traceId:,span_id:] 2018-06-07 10:00:09.758 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[traceId:,span_id:] 2018-06-07 10:00:09.763 [main] [INFO ] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[traceId:,span_id:] 2018-06-07 10:00:09.767 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1528336809765 with initial instances count: 1
+[traceId:,span_id:] 2018-06-07 10:00:09.773 [main] [INFO ] o.s.c.n.e.s.EurekaServiceRegistry - Registering application service-hi with eureka with status UP
+[traceId:,span_id:] 2018-06-07 10:00:09.773 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1528336809773, current=UP, previous=STARTING]
+[traceId:,span_id:] 2018-06-07 10:00:09.775 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762: registering service...
+[traceId:,span_id:] 2018-06-07 10:00:09.793 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 10:00:09.811 [main] [INFO ] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[traceId:,span_id:] 2018-06-07 10:00:09.817 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762 - registration status: 204
+[traceId:,span_id:] 2018-06-07 10:00:09.834 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+[traceId:,span_id:] 2018-06-07 10:00:09.838 [main] [INFO ] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8762
+[traceId:,span_id:] 2018-06-07 10:00:09.841 [main] [INFO ] c.f.servicehi.ServiceHiApplication - Started ServiceHiApplication in 5.959 seconds (JVM running for 6.705)
+[traceId:,span_id:] 2018-06-07 10:00:17.435 [http-nio-8762-exec-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[traceId:,span_id:] 2018-06-07 10:00:17.435 [http-nio-8762-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[traceId:,span_id:] 2018-06-07 10:00:17.455 [http-nio-8762-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[traceId:,span_id:] 2018-06-07 10:00:17.499 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 10:00:17.499 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 10:00:17.499 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime()=20180607 10:00:17
+[traceId:,span_id:] 2018-06-07 10:00:17.500 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime14()=20180607100017
+[traceId:,span_id:] 2018-06-07 10:00:17.500 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime17()=20180607 10:00:17
+[traceId:,span_id:] 2018-06-07 10:00:17.500 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime19()=2018-06-07 10:00:17
+[traceId:,span_id:] 2018-06-07 10:00:17.500 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 10:00:17.500 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 10:00:17.500 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 10:00:17.501 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.parseDateTime(String dateTime, DateTimeFormatter formatter)=2018-06-06T18:08:58
+[traceId:,span_id:] 2018-06-07 10:00:17.501 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.parseDate(String date, DateTimeFormatter formatter)=2018-06-06
+[traceId:,span_id:] 2018-06-07 10:00:17.501 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.betweenDays(String startDateStr, String endDateStr)=0
+[traceId:,span_id:] 2018-06-07 10:00:17.501 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.betweenDays(LocalDate startDate, LocalDate endDate)=0
+[traceId:,span_id:] 2018-06-07 10:00:17.501 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.betweenDays(LocalDateTime startDateTime, LocalDateTime endDateTime)=0
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getAddDays(String startDate, Long days)=2018-06-09
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getAddDays(LocalDate startDate, Long days)=2018-06-10
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getMinusMonths(String startDate, Long months)=2018-03-06
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getMinusMonths(LocalDate startDate, Long months)=2018-03-07
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getMinusYears(LocalDate startDate, Long years)=2015-06-07
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.dateToLocalDateTime(Date date)=2018-06-07T10:00:17.496
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.dateToLocalDate(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 10:00:17.502 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDate10Str(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 10:00:17.503 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDateTime19Str(Date date)=2018-06-07 10:00:17
+[traceId:,span_id:] 2018-06-07 10:00:17.503 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getDate8Str(Date date)=20180607
+[traceId:,span_id:] 2018-06-07 10:00:17.503 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getFirstDayOfMonth()=2018-06-01
+[traceId:,span_id:] 2018-06-07 10:00:17.503 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getLastDayOfMonth()=2018-06-30
+[traceId:,span_id:] 2018-06-07 10:00:17.504 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateOfYear()=2018
+[traceId:,span_id:] 2018-06-07 10:00:17.504 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - DateUtil.getCurrentDateOfMonth()=6
+[traceId:,span_id:] 2018-06-07 10:05:09.603 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:09:10.967 [main] [INFO ] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57ac5227: startup date [Thu Jun 07 10:09:10 CST 2018]; root of context hierarchy
+[traceId:,span_id:] 2018-06-07 10:09:11.159 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 10:09:11.194 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b0e554c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 10:09:11.417 [main] [INFO ] c.f.servicehi.ServiceHiApplication - No active profile set, falling back to default profiles: default
+[traceId:,span_id:] 2018-06-07 10:09:11.430 [main] [INFO ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d467c87: startup date [Thu Jun 07 10:09:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@57ac5227
+[traceId:,span_id:] 2018-06-07 10:09:12.219 [main] [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=d5f31472-dae9-380d-9075-ec04185d679f
+[traceId:,span_id:] 2018-06-07 10:09:12.238 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 10:09:12.331 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b0e554c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 10:09:12.607 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+[traceId:,span_id:] 2018-06-07 10:09:12.618 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 10:09:12.628 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[traceId:,span_id:] 2018-06-07 10:09:12.628 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[traceId:,span_id:] 2018-06-07 10:09:12.634 [localhost-startStop-1] [INFO ] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;D:\soft\nnd\idea\git\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\JYKJ\AppData\Local\Microsoft\WindowsApps;;.]
+[traceId:,span_id:] 2018-06-07 10:09:12.780 [localhost-startStop-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[traceId:,span_id:] 2018-06-07 10:09:12.780 [localhost-startStop-1] [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1350 ms
+[traceId:,span_id:] 2018-06-07 10:09:13.841 [localhost-startStop-1] [INFO ] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[traceId:,span_id:] 2018-06-07 10:09:13.845 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:09:13.845 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:09:13.846 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:09:13.846 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:09:13.846 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:09:13.846 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 10:09:13.906 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 10:09:13.906 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 10:09:13.910 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 10:09:13.910 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 10:09:13.995 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 10:09:14.246 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d467c87: startup date [Thu Jun 07 10:09:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@57ac5227
+[traceId:,span_id:] 2018-06-07 10:09:14.305 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hi]}" onto public java.lang.String com.forezp.servicehi.ServiceHiApplication.home(java.lang.String)
+[traceId:,span_id:] 2018-06-07 10:09:14.306 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/util/date],methods=[GET]}" onto public com.forezp.servicehi.common.rest.RestResponse<java.lang.Void> com.forezp.servicehi.resource.UtilDateResource.getDate()
+[traceId:,span_id:] 2018-06-07 10:09:14.310 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[traceId:,span_id:] 2018-06-07 10:09:14.310 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 10:09:14.343 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 10:09:14.343 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 10:09:14.362 [main] [INFO ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restExceptionHandler
+[traceId:,span_id:] 2018-06-07 10:09:14.772 [main] [INFO ] o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d467c87: startup date [Thu Jun 07 10:09:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@57ac5227] and template loader path [classpath:/templates/]
+[traceId:,span_id:] 2018-06-07 10:09:14.773 [main] [INFO ] o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[traceId:,span_id:] 2018-06-07 10:09:14.940 [main] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[traceId:,span_id:] 2018-06-07 10:09:14.953 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 10:09:14.954 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 10:09:14.954 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 10:09:15.017 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[traceId:,span_id:] 2018-06-07 10:09:15.027 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 10:09:15.032 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 10:09:15.033 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 10:09:15.035 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+[traceId:,span_id:] 2018-06-07 10:09:15.045 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+[traceId:,span_id:] 2018-06-07 10:09:15.056 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6d467c87,type=ConfigurationPropertiesRebinder]
+[traceId:,span_id:] 2018-06-07 10:09:15.071 [main] [INFO ] o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+[traceId:,span_id:] 2018-06-07 10:09:15.078 [main] [INFO ] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[traceId:,span_id:] 2018-06-07 10:09:15.119 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[traceId:,span_id:] 2018-06-07 10:09:15.352 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 10:09:15.353 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 10:09:15.454 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 10:09:15.454 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 10:09:15.726 [main] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:09:15.771 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[traceId:,span_id:] 2018-06-07 10:09:15.772 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[traceId:,span_id:] 2018-06-07 10:09:15.773 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[traceId:,span_id:] 2018-06-07 10:09:15.773 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application is null : false
+[traceId:,span_id:] 2018-06-07 10:09:15.773 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[traceId:,span_id:] 2018-06-07 10:09:15.773 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[traceId:,span_id:] 2018-06-07 10:09:15.773 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[traceId:,span_id:] 2018-06-07 10:09:15.927 [main] [INFO ] c.netflix.discovery.DiscoveryClient - The response status is 200
+[traceId:,span_id:] 2018-06-07 10:09:15.929 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[traceId:,span_id:] 2018-06-07 10:09:15.931 [main] [INFO ] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[traceId:,span_id:] 2018-06-07 10:09:15.937 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1528337355935 with initial instances count: 1
+[traceId:,span_id:] 2018-06-07 10:09:15.941 [main] [INFO ] o.s.c.n.e.s.EurekaServiceRegistry - Registering application service-hi with eureka with status UP
+[traceId:,span_id:] 2018-06-07 10:09:15.942 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1528337355942, current=UP, previous=STARTING]
+[traceId:,span_id:] 2018-06-07 10:09:15.946 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762: registering service...
+[traceId:,span_id:] 2018-06-07 10:09:15.967 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 10:09:15.978 [main] [INFO ] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[traceId:,span_id:] 2018-06-07 10:09:15.992 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762 - registration status: 204
+[traceId:,span_id:] 2018-06-07 10:09:16.008 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+[traceId:,span_id:] 2018-06-07 10:09:16.009 [main] [INFO ] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8762
+[traceId:,span_id:] 2018-06-07 10:09:16.011 [main] [INFO ] c.f.servicehi.ServiceHiApplication - Started ServiceHiApplication in 6.126 seconds (JVM running for 6.887)
+[traceId:,span_id:] 2018-06-07 10:09:21.938 [http-nio-8762-exec-2] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[traceId:,span_id:] 2018-06-07 10:09:21.939 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[traceId:,span_id:] 2018-06-07 10:09:21.960 [http-nio-8762-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a1=DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a2=DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a3=DateUtil.getCurrentDateTime()=20180607 10:09:22
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a4=DateUtil.getCurrentDateTime14()=20180607100922
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a5=DateUtil.getCurrentDateTime17()=20180607 10:09:22
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a6=DateUtil.getCurrentDateTime19()=2018-06-07 10:09:22
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a7=DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a8=DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a9=DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 10:09:22.000 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a10=DateUtil.getDateStr()=2018-06-07
+[traceId:,span_id:] 2018-06-07 10:09:22.001 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a11=DateUtil.parseDateTime(String dateTime, DateTimeFormatter formatter)=2018-06-06T18:08:58
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a12=DateUtil.parseDate(String date, DateTimeFormatter formatter)=2018-06-06
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a13=DateUtil.betweenDays(String startDateStr, String endDateStr)=0
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a14=DateUtil.betweenDays(LocalDate startDate, LocalDate endDate)=0
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a15=DateUtil.betweenDays(LocalDateTime startDateTime, LocalDateTime endDateTime)=a1=0
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a16=DateUtil.getAddDays(String startDate, Long days)=2018-06-09
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a17=DateUtil.getAddDays(LocalDate startDate, Long days)=2018-06-10
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a18=DateUtil.getMinusMonths(String startDate, Long months)=2018-03-06
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a19=DateUtil.getMinusMonths(LocalDate startDate, Long months)=2018-03-07
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a20=DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a21=DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a22=DateUtil.getMinusYears(LocalDate startDate, Long years)=2015-06-07
+[traceId:,span_id:] 2018-06-07 10:09:22.002 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a23=DateUtil.dateToLocalDateTime(Date date)=2018-06-07T10:09:21.996
+[traceId:,span_id:] 2018-06-07 10:09:22.006 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a24=DateUtil.dateToLocalDate(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 10:09:22.006 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a25=DateUtil.getDate10Str(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 10:09:22.006 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a26=DateUtil.getDateTime19Str(Date date)=2018-06-07 10:09:21
+[traceId:,span_id:] 2018-06-07 10:09:22.006 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a27=DateUtil.getDate8Str(Date date)=20180607
+[traceId:,span_id:] 2018-06-07 10:09:22.006 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a29=DateUtil.getFirstDayOfMonth()=2018-06-01
+[traceId:,span_id:] 2018-06-07 10:09:22.007 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a30=DateUtil.getLastDayOfMonth()=2018-06-30
+[traceId:,span_id:] 2018-06-07 10:09:22.007 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a31=DateUtil.getCurrentDateOfYear()=2018
+[traceId:,span_id:] 2018-06-07 10:09:22.007 [http-nio-8762-exec-2] [INFO ] c.f.s.service.UtilDateService - a32=DateUtil.getCurrentDateOfMonth()=6
+[traceId:,span_id:] 2018-06-07 10:14:15.775 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:19:15.777 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:24:15.778 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:29:15.780 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:34:15.781 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:39:15.783 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:44:15.785 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 10:49:15.786 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 11:26:09.104 [main] [INFO ] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59f63e24: startup date [Thu Jun 07 11:26:09 CST 2018]; root of context hierarchy
+[traceId:,span_id:] 2018-06-07 11:26:09.283 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 11:26:09.323 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f054b51d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 11:26:09.567 [main] [INFO ] c.f.servicehi.ServiceHiApplication - No active profile set, falling back to default profiles: default
+[traceId:,span_id:] 2018-06-07 11:26:09.580 [main] [INFO ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27494e46: startup date [Thu Jun 07 11:26:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59f63e24
+[traceId:,span_id:] 2018-06-07 11:26:10.370 [main] [INFO ] o.s.cloud.context.scope.GenericScope - BeanFactory id=3f064669-d6ba-3359-97f6-ab28dba35dc9
+[traceId:,span_id:] 2018-06-07 11:26:10.387 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[traceId:,span_id:] 2018-06-07 11:26:10.477 [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f054b51d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[traceId:,span_id:] 2018-06-07 11:26:10.750 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+[traceId:,span_id:] 2018-06-07 11:26:10.762 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 11:26:10.770 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[traceId:,span_id:] 2018-06-07 11:26:10.770 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[traceId:,span_id:] 2018-06-07 11:26:10.775 [localhost-startStop-1] [INFO ] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;D:\soft\nnd\idea\git\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\JYKJ\AppData\Local\Microsoft\WindowsApps;;.]
+[traceId:,span_id:] 2018-06-07 11:26:10.917 [localhost-startStop-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[traceId:,span_id:] 2018-06-07 11:26:10.918 [localhost-startStop-1] [INFO ] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1338 ms
+[traceId:,span_id:] 2018-06-07 11:26:11.984 [localhost-startStop-1] [INFO ] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[traceId:,span_id:] 2018-06-07 11:26:11.988 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 11:26:11.989 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 11:26:11.989 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 11:26:11.989 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 11:26:11.989 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 11:26:11.989 [localhost-startStop-1] [INFO ] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[traceId:,span_id:] 2018-06-07 11:26:12.054 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 11:26:12.054 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 11:26:12.060 [main] [WARN ] c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[traceId:,span_id:] 2018-06-07 11:26:12.060 [main] [INFO ] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[traceId:,span_id:] 2018-06-07 11:26:12.144 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 11:26:12.371 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27494e46: startup date [Thu Jun 07 11:26:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59f63e24
+[traceId:,span_id:] 2018-06-07 11:26:12.447 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hi]}" onto public java.lang.String com.forezp.servicehi.ServiceHiApplication.home(java.lang.String)
+[traceId:,span_id:] 2018-06-07 11:26:12.448 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/util/date],methods=[GET]}" onto public com.forezp.servicehi.common.rest.RestResponse<java.lang.Void> com.forezp.servicehi.resource.UtilDateResource.getDate()
+[traceId:,span_id:] 2018-06-07 11:26:12.449 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/util/json],methods=[GET]}" onto public com.forezp.servicehi.common.rest.RestResponse<java.lang.Void> com.forezp.servicehi.resource.UtilJsonResource.getJson()
+[traceId:,span_id:] 2018-06-07 11:26:12.450 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[traceId:,span_id:] 2018-06-07 11:26:12.451 [main] [INFO ] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 11:26:12.482 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 11:26:12.482 [main] [INFO ] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[traceId:,span_id:] 2018-06-07 11:26:12.501 [main] [INFO ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in restExceptionHandler
+[traceId:,span_id:] 2018-06-07 11:26:12.899 [main] [INFO ] o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27494e46: startup date [Thu Jun 07 11:26:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59f63e24] and template loader path [classpath:/templates/]
+[traceId:,span_id:] 2018-06-07 11:26:12.900 [main] [INFO ] o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[traceId:,span_id:] 2018-06-07 11:26:13.072 [main] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[traceId:,span_id:] 2018-06-07 11:26:13.085 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 11:26:13.086 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[traceId:,span_id:] 2018-06-07 11:26:13.086 [main] [INFO ] o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[traceId:,span_id:] 2018-06-07 11:26:13.142 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[traceId:,span_id:] 2018-06-07 11:26:13.152 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 11:26:13.155 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 11:26:13.156 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+[traceId:,span_id:] 2018-06-07 11:26:13.159 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+[traceId:,span_id:] 2018-06-07 11:26:13.169 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+[traceId:,span_id:] 2018-06-07 11:26:13.179 [main] [INFO ] o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=27494e46,type=ConfigurationPropertiesRebinder]
+[traceId:,span_id:] 2018-06-07 11:26:13.189 [main] [INFO ] o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+[traceId:,span_id:] 2018-06-07 11:26:13.198 [main] [INFO ] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[traceId:,span_id:] 2018-06-07 11:26:13.239 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[traceId:,span_id:] 2018-06-07 11:26:13.450 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 11:26:13.450 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[traceId:,span_id:] 2018-06-07 11:26:13.552 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 11:26:13.552 [main] [INFO ] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[traceId:,span_id:] 2018-06-07 11:26:13.817 [main] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 11:26:13.890 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[traceId:,span_id:] 2018-06-07 11:26:13.890 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[traceId:,span_id:] 2018-06-07 11:26:13.890 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[traceId:,span_id:] 2018-06-07 11:26:13.890 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application is null : false
+[traceId:,span_id:] 2018-06-07 11:26:13.890 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[traceId:,span_id:] 2018-06-07 11:26:13.890 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[traceId:,span_id:] 2018-06-07 11:26:13.891 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[traceId:,span_id:] 2018-06-07 11:26:14.169 [main] [INFO ] c.netflix.discovery.DiscoveryClient - The response status is 200
+[traceId:,span_id:] 2018-06-07 11:26:14.171 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[traceId:,span_id:] 2018-06-07 11:26:14.173 [main] [INFO ] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[traceId:,span_id:] 2018-06-07 11:26:14.176 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1528341974175 with initial instances count: 0
+[traceId:,span_id:] 2018-06-07 11:26:14.180 [main] [INFO ] o.s.c.n.e.s.EurekaServiceRegistry - Registering application service-hi with eureka with status UP
+[traceId:,span_id:] 2018-06-07 11:26:14.180 [main] [INFO ] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1528341974180, current=UP, previous=STARTING]
+[traceId:,span_id:] 2018-06-07 11:26:14.183 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762: registering service...
+[traceId:,span_id:] 2018-06-07 11:26:14.199 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+[traceId:,span_id:] 2018-06-07 11:26:14.214 [main] [INFO ] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[traceId:,span_id:] 2018-06-07 11:26:14.233 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+[traceId:,span_id:] 2018-06-07 11:26:14.234 [main] [INFO ] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8762
+[traceId:,span_id:] 2018-06-07 11:26:14.237 [main] [INFO ] c.f.servicehi.ServiceHiApplication - Started ServiceHiApplication in 6.288 seconds (JVM running for 7.029)
+[traceId:,span_id:] 2018-06-07 11:26:14.320 [DiscoveryClient-InstanceInfoReplicator-0] [INFO ] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-HI/DESKTOP-CCCD7LS:service-hi:8762 - registration status: 204
+[traceId:,span_id:] 2018-06-07 11:26:24.103 [http-nio-8762-exec-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[traceId:,span_id:] 2018-06-07 11:26:24.104 [http-nio-8762-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[traceId:,span_id:] 2018-06-07 11:26:24.125 [http-nio-8762-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+[traceId:,span_id:] 2018-06-07 11:26:24.165 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a1=DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a2=DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a3=DateUtil.getCurrentDateTime()=20180607 11:26:24
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a4=DateUtil.getCurrentDateTime14()=20180607112624
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a5=DateUtil.getCurrentDateTime17()=20180607 11:26:24
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a6=DateUtil.getCurrentDateTime19()=2018-06-07 11:26:24
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a7=DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a8=DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a9=DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 11:26:24.166 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a10=DateUtil.getDateStr(LocalDate dateTime, DateTimeFormatter formatter)=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:24.167 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a11=DateUtil.parseDateTime(String dateTime, DateTimeFormatter formatter)=2018-06-06T18:08:58
+[traceId:,span_id:] 2018-06-07 11:26:24.167 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a12=DateUtil.parseDate(String date, DateTimeFormatter formatter)=2018-06-06
+[traceId:,span_id:] 2018-06-07 11:26:24.167 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a13=DateUtil.betweenDays(String startDateStr, String endDateStr)=0
+[traceId:,span_id:] 2018-06-07 11:26:24.167 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a14=DateUtil.betweenDays(LocalDate startDate, LocalDate endDate)=0
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a15=DateUtil.betweenDays(LocalDateTime startDateTime, LocalDateTime endDateTime)=a1=0
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a16=DateUtil.getAddDays(String startDate, Long days)=2018-06-09
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a17=DateUtil.getAddDays(LocalDate startDate, Long days)=2018-06-10
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a18=DateUtil.getMinusMonths(String startDate, Long months)=2018-03-06
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a19=DateUtil.getMinusMonths(LocalDate startDate, Long months)=2018-03-07
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a20=DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a21=DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a22=DateUtil.getMinusYears(LocalDate startDate, Long years)=2015-06-07
+[traceId:,span_id:] 2018-06-07 11:26:24.168 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a23=DateUtil.dateToLocalDateTime(Date date)=2018-06-07T11:26:24.160
+[traceId:,span_id:] 2018-06-07 11:26:24.170 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a24=DateUtil.dateToLocalDate(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:24.170 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a25=DateUtil.getDate10Str(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:24.170 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a26=DateUtil.getDateTime19Str(Date date)=2018-06-07 11:26:24
+[traceId:,span_id:] 2018-06-07 11:26:24.170 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a27=DateUtil.getDate8Str(Date date)=20180607
+[traceId:,span_id:] 2018-06-07 11:26:24.171 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a29=DateUtil.getFirstDayOfMonth()=2018-06-01
+[traceId:,span_id:] 2018-06-07 11:26:24.171 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a30=DateUtil.getLastDayOfMonth()=2018-06-30
+[traceId:,span_id:] 2018-06-07 11:26:24.171 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a31=DateUtil.getCurrentDateOfYear()=2018
+[traceId:,span_id:] 2018-06-07 11:26:24.171 [http-nio-8762-exec-1] [INFO ] c.f.s.service.UtilDateService - a32=DateUtil.getCurrentDateOfMonth()=6
+[traceId:,span_id:] 2018-06-07 11:26:36.678 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a1=DateUtil.getCurrentDate()=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:36.678 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a2=DateUtil.getCurrentDateShort()=20180607
+[traceId:,span_id:] 2018-06-07 11:26:36.678 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a3=DateUtil.getCurrentDateTime()=20180607 11:26:36
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a4=DateUtil.getCurrentDateTime14()=20180607112636
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a5=DateUtil.getCurrentDateTime17()=20180607 11:26:36
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a6=DateUtil.getCurrentDateTime19()=2018-06-07 11:26:36
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a7=DateUtil.getCurrentDateTime(DATE_8_DATE_STR)=20180606
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a8=DateUtil.getCurrentDateTime(DateTimeFormatter formatter)=20180607
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a9=DateUtil.getDateTimeStr()=1970-01-01 08:00:00
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a10=DateUtil.getDateStr(LocalDate dateTime, DateTimeFormatter formatter)=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a11=DateUtil.parseDateTime(String dateTime, DateTimeFormatter formatter)=2018-06-06T18:08:58
+[traceId:,span_id:] 2018-06-07 11:26:36.679 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a12=DateUtil.parseDate(String date, DateTimeFormatter formatter)=2018-06-06
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a13=DateUtil.betweenDays(String startDateStr, String endDateStr)=0
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a14=DateUtil.betweenDays(LocalDate startDate, LocalDate endDate)=0
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a15=DateUtil.betweenDays(LocalDateTime startDateTime, LocalDateTime endDateTime)=a1=0
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a16=DateUtil.getAddDays(String startDate, Long days)=2018-06-09
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a17=DateUtil.getAddDays(LocalDate startDate, Long days)=2018-06-10
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a18=DateUtil.getMinusMonths(String startDate, Long months)=2018-03-06
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a19=DateUtil.getMinusMonths(LocalDate startDate, Long months)=2018-03-07
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a20=DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a21=DateUtil.getMinusYears(String startDate, Long years)=2015-06-06
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a22=DateUtil.getMinusYears(LocalDate startDate, Long years)=2015-06-07
+[traceId:,span_id:] 2018-06-07 11:26:36.680 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a23=DateUtil.dateToLocalDateTime(Date date)=2018-06-07T11:26:36.678
+[traceId:,span_id:] 2018-06-07 11:26:36.683 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a24=DateUtil.dateToLocalDate(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:36.684 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a25=DateUtil.getDate10Str(Date date)=2018-06-07
+[traceId:,span_id:] 2018-06-07 11:26:36.685 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a26=DateUtil.getDateTime19Str(Date date)=2018-06-07 11:26:36
+[traceId:,span_id:] 2018-06-07 11:26:36.685 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a27=DateUtil.getDate8Str(Date date)=20180607
+[traceId:,span_id:] 2018-06-07 11:26:36.685 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a29=DateUtil.getFirstDayOfMonth()=2018-06-01
+[traceId:,span_id:] 2018-06-07 11:26:36.685 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a30=DateUtil.getLastDayOfMonth()=2018-06-30
+[traceId:,span_id:] 2018-06-07 11:26:36.685 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a31=DateUtil.getCurrentDateOfYear()=2018
+[traceId:,span_id:] 2018-06-07 11:26:36.685 [http-nio-8762-exec-3] [INFO ] c.f.s.service.UtilDateService - a32=DateUtil.getCurrentDateOfMonth()=6
+[traceId:,span_id:] 2018-06-07 11:26:44.172 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[traceId:,span_id:] 2018-06-07 11:26:44.173 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[traceId:,span_id:] 2018-06-07 11:26:44.173 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[traceId:,span_id:] 2018-06-07 11:26:44.173 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - Application is null : false
+[traceId:,span_id:] 2018-06-07 11:26:44.173 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[traceId:,span_id:] 2018-06-07 11:26:44.173 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - Application version is -1: false
+[traceId:,span_id:] 2018-06-07 11:26:44.173 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[traceId:,span_id:] 2018-06-07 11:26:44.214 [DiscoveryClient-CacheRefreshExecutor-0] [INFO ] c.netflix.discovery.DiscoveryClient - The response status is 200
+[traceId:,span_id:] 2018-06-07 11:31:13.893 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[traceId:,span_id:] 2018-06-07 11:36:13.896 [AsyncResolver-bootstrap-executor-0] [INFO ] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

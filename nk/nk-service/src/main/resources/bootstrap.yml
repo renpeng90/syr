@@ -1,0 +1,39 @@
+server:
+  port: 8501
+
+spring:
+  application:
+    name: nnd-service
+#  zipkin:
+#      base-url: http://172.16.50.245:9411
+#  sleuth:
+#      log:
+#        slf4j: enabled
+#      sampler:
+#        percentage: 1
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+
+#ribbon:
+#  ConnectTimeout: 30000
+#  ReadTimeout: 90000
+#  MaxAutoRetries: 0
+#  MaxAutoRetriesNextServer: 0
+#
+#endpoints:
+#  shutdown:
+#    enabled: true
+#
+#management:
+#  security:
+#    enabled: false
+#
+#logging:
+#  path: /srv/dev01/nka-service

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo2/demo2.iml" filepath="$PROJECT_DIR$/demo2/demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo2/demo2-api/demo2-api.iml" filepath="$PROJECT_DIR$/demo2/demo2-api/demo2-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo2/demo2-service/demo2-service.iml" filepath="$PROJECT_DIR$/demo2/demo2-service/demo2-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nk/nk.iml" filepath="$PROJECT_DIR$/nk/nk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nk/nk-api/nk-api.iml" filepath="$PROJECT_DIR$/nk/nk-api/nk-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nk/nk-manage-web/nk-manage-web.iml" filepath="$PROJECT_DIR$/nk/nk-manage-web/nk-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nk/nk-service/nk-service.iml" filepath="$PROJECT_DIR$/nk/nk-service/nk-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi/service-hi.iml" filepath="$PROJECT_DIR$/service-hi/service-hi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hi-three/service-hi-three.iml" filepath="$PROJECT_DIR$/service-hi-three/service-hi-three.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syr.iml" filepath="$PROJECT_DIR$/syr.iml" />
+    </modules>
+  </component>
+</project>

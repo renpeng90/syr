@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2/demo2-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2/demo2-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nk/nk-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nk/nk-manage-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nk/nk-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-hi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-hi-three" charset="UTF-8" />
+  </component>
+</project>
