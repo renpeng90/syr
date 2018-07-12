@@ -120,7 +120,7 @@ public class CustBasicInfoDaoSql {
                         .FROM("nnd_cust_basic_info ncbi ")
                         .WHERE("1=1");
                 if (StringUtils.hasText(mobile)) {
-                    sql.WHERE("ncbi.`mobile` = #{cellphone}");
+                    sql.WHERE("ncbi.`mobile` = #{mobile}");
                 }
                 if (StringUtils.hasText(name)) {
                     sql.WHERE("ncbi.`name` LIKE #{name}");

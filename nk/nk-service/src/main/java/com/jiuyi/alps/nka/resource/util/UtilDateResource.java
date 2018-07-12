@@ -1,8 +1,8 @@
 package com.jiuyi.alps.nka.resource.util;
 
-import com.forezp.servicehi.common.rest.RestResponse;
-import com.forezp.servicehi.common.rest.RestResponseBuilder;
-import com.forezp.servicehi.service.UtilDateService;
+import com.jiuyi.alps.nka.service.util.UtilDateService;
+import common.rest.RestResponse;
+import common.rest.RestResponseBuilder;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

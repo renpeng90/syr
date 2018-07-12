@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 import org.springframework.util.concurrent.ListenableFuture;
 
 import java.util.ArrayList;
@@ -74,6 +75,13 @@ public class CustBasicInfoService {
                 highestDegrees.add(highestDegree);
             }
         }
+        //这种方法主要是用在int类型，但是怎么才可以是String类型啊
+        if (!CollectionUtils.isEmpty(highestDegrees)) {
+            String s = highestDegrees.toString();
+            String param = highestDegrees.toString().replace("[", "(").replace("]", ")");
+            System.out.println(param);
+        }
+
         List<CustBasicInfoDto> dtos = custBasicInfoDao.selectByConditions(mobile,
                 name,gender,highestDegrees,qq,createTimeBegin,createTimeEnd);
         for (CustBasicInfoDto dto : dtos) {

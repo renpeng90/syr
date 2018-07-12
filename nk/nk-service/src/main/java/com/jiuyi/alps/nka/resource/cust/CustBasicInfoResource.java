@@ -132,7 +132,7 @@ public class CustBasicInfoResource implements CustBasicInfoClient {
         }
         return new RestResponseBuilder<>().success(result);
     }
-    @ApiOperation("根据in的方式来查询（返回list）")
+    @ApiOperation("根据in的方式来查询（返回list,数据太多，最好别测试）")
     @RequestMapping(value = "/cust/basicInfo/in", method = RequestMethod.GET)
     public RestResponse<List<CustBasicInfoDomain>> getCustBasicInfoDomainListByIn() {
         List<CustBasicInfoDomain> custBasicInfoDomainList= custBasicInfoService.getCustBasicInfoDomainListByIn();
