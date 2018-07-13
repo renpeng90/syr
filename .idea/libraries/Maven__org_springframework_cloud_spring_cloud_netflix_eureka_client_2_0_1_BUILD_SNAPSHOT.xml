@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:2.0.1.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.1.BUILD-20180711.020413-189.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.1.BUILD-20180712.230419-204.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.1.BUILD-20180711.020413-189-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.1.BUILD-20180712.230419-204-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.1.BUILD-20180711.020413-189-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.BUILD-SNAPSHOT/spring-cloud-netflix-eureka-client-2.0.1.BUILD-20180712.230419-204-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

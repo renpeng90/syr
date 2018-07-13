@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 
-@FeignClient(value = "nnd-service")
+@FeignClient(value = "nnd-service", fallback = CustBasicInfoClientHystrix.class)
 public interface CustBasicInfoClient {
 
 //    @RequestMapping(value = "/cust/basicInfo", method = RequestMethod.POST)
