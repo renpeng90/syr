@@ -6,42 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
-        <module name="commons" />
         <module name="demo-service" />
-        <module name="demo2-api" />
         <module name="demo2-service" />
-        <module name="eurekaserver" />
-        <module name="nk-api" />
-        <module name="nk-manage-web" />
-        <module name="nk-service" />
         <module name="rp-api" />
-        <module name="service-feign" />
-        <module name="service-hi" />
-        <module name="service-hi-three" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.8" />
+      <module name="common" target="1.5" />
       <module name="commons" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo-api" target="1.8" />
       <module name="demo-service" target="1.8" />
       <module name="demo2" target="1.8" />
-      <module name="demo2-api" target="1.8" />
-      <module name="demo2-service" target="1.8" />
-      <module name="eurekaserver" target="1.8" />
-      <module name="nk" target="1.8" />
-      <module name="nk-api" target="1.8" />
-      <module name="nk-manage-web" target="1.8" />
-      <module name="nk-service" target="1.8" />
+      <module name="demo2-api" target="1.5" />
+      <module name="demo2-service" target="1.5" />
+      <module name="eurekaserver" target="1.5" />
+      <module name="nk" target="1.5" />
+      <module name="nk-api" target="1.5" />
+      <module name="nk-manage-web" target="1.5" />
+      <module name="nk-service" target="1.5" />
       <module name="rp-api" target="1.8" />
       <module name="serice-feign" target="1.8" />
-      <module name="service-feign" target="1.8" />
-      <module name="service-hi" target="1.8" />
-      <module name="service-hi-three" target="1.8" />
+      <module name="service-feign" target="1.5" />
+      <module name="service-hi" target="1.5" />
+      <module name="service-hi-three" target="1.5" />
       <module name="servicehit" target="1.8" />
-      <module name="syr" target="1.8" />
+      <module name="syr" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
